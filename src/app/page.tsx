@@ -21,7 +21,7 @@ export default function Counter() {
 
     if(counter<1){
       setCounter(0);
-      setMensaje("Ya no se peude seguir restando");
+      setMensaje("Ya no se puede seguir restando");
     }else{
       setCounter(counter-1);
       setMensaje("");
